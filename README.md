@@ -5,8 +5,8 @@ Exemplo de Uso:
         private object Pesquisar(string conteudoJSON, string noCaminho)
         {
             Arvore minhArvore;
-            minhArvore = new JSON.Arvore(conteudoJSON);
-            JSON.ParBase achei = minhArvore.Pesquisar(noCaminho);
+            minhArvore = new Joda.JSON.Arvore(conteudoJSON);
+            Joda.JSON.ParBase achei = minhArvore.Pesquisar(noCaminho);
             if (achei != null)
             {
                 return achei.Valor;
