@@ -1,4 +1,8 @@
 # Joda.JSON
+
+![](https://github.com/JodaStozo)
+
+
 Interpretação de JSON para C# e VB .NET. Converte o JSON em uma árvore hierárquica, tornando possível consultar os valores pelo seu 'Caminho' (p.e. raiz/noPrimario/.../noFinal). 
 Exemplo de Uso:
 
