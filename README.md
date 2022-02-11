@@ -1,5 +1,7 @@
 # Joda.JSON
 
+[Download](https://github.com/JodaStozo/Joda.JSON/blob/8351bbc422ae67c14de2e12900082f9886f2fb9e/Joda.JSON/bin/Debug/Joda.JSON.dll)
+
 ![](https://github.com/JodaStozo/Joda.JSON/blob/7702739635d11989f94df7a321671a6e6098c261/logo114x112.png)
 
 Interpretação de JSON para C# e VB .NET. Converte o JSON em uma árvore hierárquica, tornando possível consultar os valores pelo seu 'Caminho' (p.e. raiz/noPrimario/.../noFinal). 
@@ -51,3 +53,6 @@ Para acessar um caminho com conteúdo Array, utilizar índice iniciado por 0, ma
         
            ]
         }
+
+Baixe aqui o arquivo  
+[Joda.JSON.dll](https://github.com/JodaStozo/Joda.JSON/blob/8351bbc422ae67c14de2e12900082f9886f2fb9e/Joda.JSON/bin/Debug/Joda.JSON.dll)
