@@ -8,7 +8,7 @@ namespace Joda.JSON
 {
     public class ParNro : ParBase
     {
-        public new long Valor;
+        //public new long Valor;
         public ParNro() { }
         public ParNro(string nome, int tipo)
         {

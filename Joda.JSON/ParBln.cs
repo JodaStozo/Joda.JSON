@@ -8,7 +8,7 @@ namespace Joda.JSON
 {
     public class ParBln : ParBase
     {
-        public new Boolean Valor;
+        //public new Boolean Valor;
         public ParBln() { }
         public ParBln(string nome, int tipo)
         {

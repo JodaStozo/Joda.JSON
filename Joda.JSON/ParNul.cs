@@ -8,7 +8,7 @@ namespace Joda.JSON
 {
     public class ParNul : ParBase
     {
-        public new String Valor;
+        //public new String Valor;
         public ParNul() { }
         public ParNul(string nome, int tipo)
         {

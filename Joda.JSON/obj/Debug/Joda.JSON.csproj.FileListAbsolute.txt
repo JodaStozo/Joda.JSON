@@ -4,3 +4,9 @@ C:\Stozo\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.csproj.CoreCompileInputs.cache
 C:\Stozo\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.dll
 C:\Stozo\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.pdb
 C:\Stozo\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.csproj.AssemblyReference.cache
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON\bin\Debug\Joda.JSON.dll
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON\bin\Debug\Joda.JSON.pdb
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.csproj.AssemblyReference.cache
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.csproj.CoreCompileInputs.cache
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.dll
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON\obj\Debug\Joda.JSON.pdb

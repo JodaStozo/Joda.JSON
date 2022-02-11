@@ -38,17 +38,19 @@ namespace Joda.JSON.Testador
             minhArvore = new JSON.Arvore(this.textBox1.Text);
 
             this.textBox2.Text += "Arvore de dados povoada com sucesso";
+            this.textBox3.Enabled = true;
+            this.buttonPesquisar.Enabled = true;
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
             Joda.JSON.ParBase meuTag = (Joda.JSON.ParBase)e.Node.Tag;
-            this.textBox2.Text = meuTag.Valor;
+            this.textBox2.Text = meuTag.Valor.ToString();
         }
         private void povoar(TreeNode meuNo)
         {
             Joda.JSON.ParBase meuTag = (Joda.JSON.ParBase)meuNo.Tag;
-            String s = meuTag.Valor.Trim();
+            String s = meuTag.Valor.ToString().Trim();
             if (s.StartsWith("{"))
             {
                 Joda.JSON.ParObj meuPar = new Joda.JSON.ParObj();
@@ -99,7 +101,7 @@ namespace Joda.JSON.Testador
             JSON.ParBase achei = minhArvore.Pesquisar(textBox3.Text);
             if (achei != null)
             {
-                this.textBox2.Text = achei.Valor;
+                this.textBox2.Text = achei.Valor.ToString();
             } else
             {
                 this.textBox2.Text = "Caminho não localizado!";
