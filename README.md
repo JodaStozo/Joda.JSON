@@ -18,3 +18,36 @@ Exemplo de Uso:
                 return = "Caminho não localizado!";
             }
         }
+
+Para um conteúdo JSON conforme abaixo, o resultado da pesquisa para o caminho 'statusItem/codigo' é 1. Para o caminho 'codigo' o resultado é 0. E para o caminho 'statusItem/descricao', o resultado é 'Dado obtido com sucesso'.
+
+        {
+        	"codigo":0,
+        	"statusItem":
+        	{
+        		"codigo":1,
+        		"descricao":"Dado obtido com sucesso"
+        	}
+        }
+        
+Para acessar um caminho com conteúdo Array, utilizar índice iniciado por 0, marcado por um síbulo '#'. Assim, para um conteúdo JSON conforme abaixo, o resultado da pesquisa para o caminho 'book/#0/id' será '01'. Para o caminho 'book/#1/language', o resultado será 'C++'.
+
+        {
+           "book": [
+        
+              {
+                 "id": "01",
+                 "language": "Java",
+                 "edition": "third",
+                 "author": "Herbert Schildt"
+              },
+        
+              {
+                 "id": "07",
+                 "language": "C++",
+                 "edition": "second",
+                 "author": "E.Balagurusamy"
+              }
+        
+           ]
+        }
