@@ -22,8 +22,8 @@ namespace Joda.JSON
         {
             base.Deserealizar(argJSON);
             Valor = argJSON.Trim();
-            Valor = Valor.Substring(1);
-            Valor = Valor.Substring(0, Valor.Length - 1);
+            Valor = Valor.ToString().Substring(1);
+            Valor = Valor.ToString().Substring(0, Valor.ToString().Length - 1);
             Tipo = 2;
         }
     }

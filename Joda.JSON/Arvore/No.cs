@@ -33,7 +33,7 @@ namespace Joda.JSON
             Filhos.Clear();
         }public void PovoarFilhos()
         {
-            string meuJSON = NoJSON.Valor.Trim();
+            string meuJSON = NoJSON.Valor.ToString().Trim();
             if (meuJSON.StartsWith("{"))
             {
                 Joda.JSON.ParObj meuNoJSON = new Joda.JSON.ParObj();

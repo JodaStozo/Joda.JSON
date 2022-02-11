@@ -55,6 +55,7 @@ namespace Joda.JSON.Testador
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(307, 426);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Cole aqui o Conteúdo do JSON";
             // 
             // textBox2
             // 
@@ -77,6 +78,7 @@ namespace Joda.JSON.Testador
             // 
             // textBox3
             // 
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(394, 418);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(262, 20);
@@ -84,6 +86,7 @@ namespace Joda.JSON.Testador
             // 
             // buttonPesquisar
             // 
+            this.buttonPesquisar.Enabled = false;
             this.buttonPesquisar.Location = new System.Drawing.Point(662, 416);
             this.buttonPesquisar.Name = "buttonPesquisar";
             this.buttonPesquisar.Size = new System.Drawing.Size(39, 23);
@@ -104,7 +107,7 @@ namespace Joda.JSON.Testador
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonProcessar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Joda JSON - Testador";
             this.ResumeLayout(false);
             this.PerformLayout();
 

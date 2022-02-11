@@ -6,7 +6,7 @@ namespace Joda.JSON
     public class ParBase
     {
         public string Nome { get; set; }
-        public string Valor { get; set; }
+        public object Valor { get; set; }
         public int Tipo { get; set; }
         public ParBase() { }
         public ParBase(string nome, string valor, int tipo)

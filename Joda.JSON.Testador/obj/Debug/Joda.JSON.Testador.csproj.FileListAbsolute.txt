@@ -1,0 +1,13 @@
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\bin\Debug\Joda.JSON.Testador.exe.config
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\bin\Debug\Joda.JSON.Testador.exe
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\bin\Debug\Joda.JSON.Testador.pdb
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\bin\Debug\Joda.JSON.dll
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\bin\Debug\Joda.JSON.pdb
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.csproj.AssemblyReference.cache
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.Form1.resources
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.Properties.Resources.resources
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.csproj.GenerateResource.cache
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.csproj.CoreCompileInputs.cache
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.exe
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.pdb
+C:\Stozo\Source\Repos\Joda.JSON\Joda.JSON.Testador\obj\Debug\Joda.JSON.Testador.csproj.CopyComplete

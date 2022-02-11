@@ -55,6 +55,7 @@ namespace Joda.JSON
                 if(noLido.Nome == argNome)
                 {
                     meuRet = noLido;
+                    return meuRet;
                 }
             }
             return meuRet;
