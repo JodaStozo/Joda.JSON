@@ -50,6 +50,7 @@ namespace Joda.JSON.Testador
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(0, 12);
+            this.textBox1.MaxLength = 999999;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;

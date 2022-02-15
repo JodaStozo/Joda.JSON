@@ -24,6 +24,12 @@ namespace Joda.JSON
             base.Deserealizar(argJSON);
             int aninhamento = 0;
             List<ParBase> minhaLista = new List<ParBase>();
+            if(argJSON.Trim() == "[]")
+            {
+                //lista vazia
+                this.Valor = minhaLista.ToArray();
+                return;
+            }
             String compItem = "";
             eCompondo compondo = eCompondo.Nada;
             foreach (Char c in argJSON)
@@ -38,7 +44,9 @@ namespace Joda.JSON
                             continue;
                         case eCompondo.Item:
                             aninhamento++;
+                            compItem += c.ToString();
                             continue;
+                            
                     }
                 }
                 if (c == '\"')

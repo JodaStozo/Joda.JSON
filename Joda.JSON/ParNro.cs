@@ -24,7 +24,10 @@ namespace Joda.JSON
             base.Deserealizar(argJSON);
             if (IsNumeric(argJSON.Trim()))
             {
-                Valor = long.Parse(argJSON.Trim());
+                if(argJSON.Trim() != string.Empty)
+                {
+                    Valor = long.Parse(argJSON.Trim());
+                }
             }
             Tipo = 1;
         }
