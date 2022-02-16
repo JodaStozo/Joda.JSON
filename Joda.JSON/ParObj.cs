@@ -27,8 +27,31 @@ namespace Joda.JSON
             String compNome = "";
             String compValor = "";
             eCompondo compondo = eCompondo.Nada;
+            Boolean entreAspas = false;
+            Boolean escape = false;
             foreach (Char c in argJSON)
             {
+                if (escape)
+                {
+                    if (c == '\"')
+                    {
+                        compValor += c.ToString();
+                        escape = false;
+                        continue;
+                    } else
+                    {
+                        escape = false;
+                    }
+                }
+                if (c == '\\')
+                {
+                    if (escape)
+                    {
+                        compValor += c.ToString();
+                        continue;
+                    }
+                    escape = true;
+                }
                 if (c == '{' | c == '[')
                 {
                     switch (compondo)
@@ -46,6 +69,13 @@ namespace Joda.JSON
                 }
                 if (c == '\"')
                 {
+                    if (entreAspas)
+                    {
+                        entreAspas = false;
+                    } else
+                    {
+                        entreAspas = true;
+                    }
                     switch (compondo)
                     {
                         case eCompondo.Nada:
@@ -68,7 +98,7 @@ namespace Joda.JSON
                         case eCompondo.Nome:
                             continue;
                         case eCompondo.Valor:
-                            if (aninhamento == 1)
+                            if (aninhamento == 1 && !entreAspas)
                             {
                                 minhaLista.Add(new ParBase(compNome, compValor, 0));
                                 compondo = eCompondo.Nada;
